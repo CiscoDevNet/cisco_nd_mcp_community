@@ -1,4 +1,4 @@
-<h1 align="center">🤖 Cisco Nexus Dashboard 4.2.1 MCP Server<br /><br /></h1>
+<h1 align="center">🤖 Cisco Nexus Dashboard MCP Server<br /><br /></h1>
 
 <div align="center">
 <img src="https://img.shields.io/badge/Cisco-Nexus_Dashboard-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="Cisco Nexus Dashboard">
