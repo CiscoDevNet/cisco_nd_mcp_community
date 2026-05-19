@@ -223,20 +223,19 @@ This is a persistent HTTP server — start it once and leave it running. VS Code
 ## Installation
 
 ```bash
-cd AI-GenAI/ND_MCP_4_2_VM
+git clone <your-repo-url>
+cd cd cisco_nd_mcp_commmunity
 
 # Install dependencies
 pip install -r requirements.txt
 
-# (Optional) Regenerate the tool shortlist from OpenAPI specs
-python3 create_optimised_urls_4_2.py
 ```
 
 ---
 
 ## Configuration
 
-Create a `.env` file in `AI-GenAI/ND_MCP_4_2_VM/`:
+Create a `.env` file in `cisco_nd_mcp_community/`:
 
 ```bash
 NDFC_URL=https://<your-nd-ip>
@@ -259,14 +258,14 @@ HTTP_TIMEOUT=30
 ### Start (recommended)
 
 ```bash
-/path/to/venv/bin/python3 /path/to/AI-GenAI/ND_MCP_4_2_VM/nd_4_2_1_server.py
+python3 /scripts/server.py
 ```
 
 Or with the venv activated:
 
 ```bash
-cd AI-GenAI/ND_MCP_4_2_VM
-python3 nd_4_2_1_server.py
+cd cisco_nd_mcp_community/scripts
+python3 server.py
 ```
 
 The server prints startup confirmation:
@@ -282,7 +281,7 @@ INFO    Endpoint    : http://0.0.0.0:8005/mcp
 ### Run in background
 
 ```bash
-python3 nd_4_2_1_server.py &
+python3 server.py &
 ```
 
 ---
@@ -306,7 +305,7 @@ Open your VS Code user `mcp.json` (`Cmd+Shift+P` → *Open MCP Servers Configura
 
 ### Step 2 — Start the Server
 
-Start `nd_4_2_1_server.py` (see above), then click **Restart** on the `nd-4.2.1-mcp-local` entry in the MCP Servers panel.
+Start `nd-4.2.1-mcp-local` (see above), then click **Restart** on the `nd-4.2.1-mcp-local` entry in the MCP Servers panel.
 
 ### Step 3 — Chat with your Nexus Dashboard
 
