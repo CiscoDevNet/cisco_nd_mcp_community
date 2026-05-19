@@ -1,39 +1,23 @@
 # Security Policies and Procedures
 
-This document outlines security procedures and general policies for the
-`<project name>` project.
+This document outlines security procedures and general policies for the `cisco_nd_mcp_community` project.
 
-- [Reporting a Bug](#reporting-a-bug)
-- [Disclosure Policy](#disclosure-policy)
-- [Comments on this Policy](#comments-on-this-policy)
+## Disclosing a security issue
 
-## Reporting a Bug
+We ask that you do not use a public GitHub issue to report security vulnerabilities. Instead, please use [GitHub's private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) to report any security issues.
 
-The `<project name>` team and community take all security bugs in
-`<project name>` seriously. Thank you for improving the security of
-`<project name>`. We appreciate your efforts and responsible disclosure and
-will make every effort to acknowledge your contributions.
+We will acknowledge receipt of your vulnerability report within 3 business days.
 
-Report security bugs by emailing `oss-security@cisco.com`.
+Alternatively, you can send an email to oss-security@cisco.com. Please use this email address only for undisclosed vulnerabilities. Ensure that you do not include any sensitive information that you do not wish to be publicly accessible, as this email address may be publicly archived.
 
-The lead maintainer will acknowledge your email within 48 hours, and will send a
-more detailed response within 48 hours indicating the next steps in handling
-your report. After the initial reply to your report, the security team will
-endeavor to keep you informed of the progress towards a fix and full
-announcement, and may ask for additional information or guidance.
+## Vulnerability management
 
-## Disclosure Policy
+The primary handler for `cisco_nd_mcp_community` security issues is responsible for coordinating the fix and release process. This involves:
 
-When the security team receives a security bug report, they will assign it to a
-primary handler. This person will coordinate the fix and release process,
-involving the following steps:
+- Confirming the problem and determining the affected versions.
+- Auditing code to find any potential similar problems.
+- Preparing fixes for all releases still under maintenance.
 
-- Confirm the problem and determine the affected versions.
-- Audit code to find any potential similar problems.
-- Prepare fixes for all releases still under maintenance. These fixes will be
-  released as quickly as possible.
+## Suggesting changes
 
-## Comments on this Policy
-
-If you have suggestions on how this process could be improved please submit a
-pull request.
+If you have suggestions on how this process could be improved, please submit a pull request.
