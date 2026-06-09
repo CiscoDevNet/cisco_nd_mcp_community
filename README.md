@@ -355,7 +355,12 @@ Show me all logical links
 Get interface groups for the fabric
 ```
 ```
-
 The LLM will automatically select the right MCP tool(s), call the APIC REST API, and return structured results in the chat window.
+```
+---
+
+## LICENSE
+
+This sample code is licensed under the Apache 2.0 license as per the [LICENSE](LICENSE) file attached
 
 ---
