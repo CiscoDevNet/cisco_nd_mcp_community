@@ -12,7 +12,7 @@
 <br />
 
 <p align="center">
-  <img src="docs/images/banner.jpg" alt="Cisco Nexus Dashboard MCP Server" width="900">
+  <img src="docs/images/banner1.jpg" alt="Cisco Nexus Dashboard MCP Server" width="900">
 </p>
 
 <div align="center">
