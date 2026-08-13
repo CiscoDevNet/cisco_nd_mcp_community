@@ -11,6 +11,10 @@
 
 <br />
 
+<p align="center">
+  <img src="docs/images/banner.jpg" alt="Cisco Nexus Dashboard MCP Server" width="900">
+</p>
+
 <div align="center">
 A <strong>data-driven MCP server</strong> built with <a href="https://github.com/jlowin/fastmcp"><strong>FastMCP 3.2.0</strong></a> that exposes <strong>110 Nexus Dashboard 4.2.1 operations</strong> as MCP tools. Connect any <strong>MCP-compatible client</strong> and <strong>LLM</strong> to query, analyse, and manage your Cisco Nexus Dashboard environment through natural language.
 </div>
